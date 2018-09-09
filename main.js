@@ -15,3 +15,17 @@ function createWindow() {
 }
 
 app.on('ready', createWindow);
+
+// For OS X
+app.on('activate', function () {
+  if (mainWindow === null) {
+    createWindow();
+  }
+});
+
+// For OS X
+app.on('window-all-closed', function () {
+  if (process.platform !== 'darwin') {
+    app.quit();
+  }
+})
