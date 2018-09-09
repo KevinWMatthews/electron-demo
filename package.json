@@ -1,0 +1,22 @@
+{
+  "name": "electron-demo",
+  "version": "0.0.1",
+  "description": "First use of Electron - basic how-to",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/KevinWMatthews/electron-demo",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "Kevin W Matthews",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^2.0.0"
+  }
+}
